@@ -24,6 +24,15 @@ node_modules/
 haters/
 variables.env
 # variables.env.{development_environment_variable_ext_goes_here}
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# tests
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
 
 # Sass #
 ########
@@ -32,9 +41,7 @@ variables.env
 
 # Gulp Base Ignore #
 ####################
-build
 *.node
-components
 coverage
 *.orig
 .idea
@@ -71,3 +78,11 @@ docs/_templates
 bundles/
 .hg/
 pyenv
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
